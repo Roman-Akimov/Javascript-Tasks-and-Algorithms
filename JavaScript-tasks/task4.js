@@ -116,6 +116,3 @@ console.log(safeCompare([1, [2]], [1, [2]])); // true
 console.log(safeCompare(new Date(2020, 0, 1), new Date(2020, 0, 1))); // true
 console.log(safeCompare(/abc/i, /abc/i)); // true
 
-date = new Date();
-
-console.log(date.getTime()); 
