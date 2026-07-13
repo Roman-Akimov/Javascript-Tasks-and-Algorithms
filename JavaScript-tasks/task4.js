@@ -95,7 +95,7 @@ const safeCompare = (a, b, visited = new WeakMap()) => {
     const keysB = Object.keys(b);
 
     // Если количество ключей разное - false
-    if (keysA !== keysB) false;
+    if (keysA !== keysB) return false;
 
     // Перебираем ключи a
     for (const key of keysA){
